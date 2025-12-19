@@ -1,114 +1,181 @@
 export default function handler(req, res) {
   const data = {
-    "Name": "Aditya Sharma",
-    "Contact": {
-      "Email": "adityasharma56697@gmail.com",
-      "Linkedin": "https://linkedin.com/in/aditya-sharma-334528296",
+    "name": "Aditya Sharma",
+    "contact_information": {
+      "email": "adityasharma56697@gmail.com",
+      "phone": "+91 9289665096",
+      "linkedin": "https://www.linkedin.com/in/aditya-sharma-334528296",
       "github": "https://github.com/adisha2003",
-      "Location": "Faridabad, Haryana 🌍",
-      "Phone": "+91 9289665096 📱"
+      "location": "Faridabad, Haryana, India"
     },
-    "Career_objective": "I am eager to join a forward-thinking company where I can apply my skills to drive success through collaboration and innovation. Committed to continuous learning and growth, I aim to contribute value and support the company in achieving its strategic goals, while advancing my own professional development. 🚀",
-    "Technical_skills": [
-      "HTML 🌐",
-      "CSS 🎨",
-      "JavaScript 💻",
-      "React ⚛️",
-      "Node.js 🌲",
-      "Python 🐍",
-      "Git 🔧",
-      "GitHub 🐙",
-      "Figma ✏️",
-      "PostgreSQL 🗄️",
-      "Puppeteer 🎭",
-      "Vercel 🚀",
-      "Selenium WebDriver (JS) 🧑‍💻",
-      "Mocha ☕",
-      "Chai 🍵",
-      "Postman 📬",
-      "Cloud Basics ☁️",
-      "Flask 🥖",
-      "Express ⚡",
-      "MySQL 🐬",
-      "ACID 💡",
-      "Normalization 🧹",
-      "Indexing 🔍",
-      "Keys 🗝️",
-      "JWT 🔑",
-      "Chrome DevTools 🛠️",
-      "Google Apps Script 📝"
+    "career_objective": "I am eager to join a forward-thinking company where I can apply my skills to drive success through collaboration and innovation. Committed to continuous learning and growth, I aim to contribute value and support the company in achieving its strategic goals, while advancing my own professional development.",
+    "professional_summary": [
+      "Aspiring QA Engineer with strong knowledge of manual testing, automation testing, API testing, and web testing.",
+      "Hands-on experience with Playwright, Selenium WebDriver (JavaScript), Postman, and structured QA practices including STLC and Bug Lifecycle.",
+      "Strong frontend and backend understanding, enabling effective end-to-end and integration testing.",
+      "Solid foundation in Data Structures and Algorithms, applying programming skills to improve test efficiency and coverage."
     ],
-    "Soft_skills": [
-      "Strong problem-solving and analytical skills 🧠",
-      "Eagerness to learn new technologies 📚",
-      "Decision making ⚖️",
-      "Communication 💬",
-      "Multi-tasking 🔄"
+    "skills": {
+      "programming_languages": ["JavaScript", "Python", "Java"],
+      "manual_testing": [
+        "Functional Testing",
+        "Regression Testing",
+        "Smoke Testing",
+        "Sanity Testing",
+        "End-to-End Testing",
+        "Edge Case Validation"
+      ],
+      "automation_testing": [
+        "Playwright",
+        "Selenium WebDriver (JavaScript)",
+        "Puppeteer",
+        "WebdriverIO",
+        "Mocha",
+        "Chai",
+        "Data-driven Testing"
+      ],
+      "api_testing": [
+        "REST APIs",
+        "HTTP Status Codes",
+        "Postman",
+        "GET, POST, PUT, DELETE validation"
+      ],
+      "web_development": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "Flask",
+        "Responsive Design"
+      ],
+      "databases": [
+        "MySQL",
+        "PostgreSQL",
+        "SQL",
+        "NoSQL",
+        "ACID",
+        "Normalization",
+        "Indexing",
+        "Keys"
+      ],
+      "tools_and_platforms": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Jira",
+        "Jenkins",
+        "Allure Reports",
+        "Chrome DevTools",
+        "BrowserStack",
+        "Figma",
+        "Vercel",
+        "Google Apps Script"
+      ],
+      "cloud_and_system_concepts": [
+        "Cloud Basics",
+        "Cloud Servers",
+        "Horizontal Scaling",
+        "Vertical Scaling"
+      ],
+      "software_life_cycles": [
+        "SDLC",
+        "STLC",
+        "Bug Lifecycle",
+        "Test Case Design"
+      ],
+      "data_structures_and_algorithms": [
+        "Arrays",
+        "Strings",
+        "Stacks",
+        "Queues"
+      ],
+      "security_and_auth": ["JWT"]
+    },
+    "soft_skills": [
+      "Strong problem-solving and analytical skills",
+      "Clear communication",
+      "Decision making",
+      "Multi-tasking",
+      "Eagerness to learn new technologies"
     ],
-    "Education": [
+    "professional_experience": [
       {
-        "Institution": "Maharishi Dayanand University 🎓",
-        "Degree": "Bachelor's in Commerce (Hons.)",
-        "Duration": "June 2021 - May 2024"
+        "role": "QA Engineer",
+        "company": "Mosaic Digital (HT Media Group)",
+        "duration": "July 2025 – Present",
+        "experience_level": "Entry to Junior QA Engineer",
+        "responsibilities": [
+          "Performing manual testing including functional, regression, smoke, and sanity testing for web applications.",
+          "Designing and executing test cases and test scenarios based on business requirements.",
+          "Identifying, logging, and tracking defects using Jira with clear reproduction steps.",
+          "Automating critical user journeys using Playwright to improve regression coverage.",
+          "Conducting API testing using Postman to validate REST APIs and JSON responses.",
+          "Executing automation test suites via Jenkins pipelines and analyzing CI failures.",
+          "Collaborating with developers, product managers, and DevOps teams.",
+          "Validating fixes across QA and UAT environments before production releases."
+        ]
       },
       {
-        "Institution": "BVN Sr. Sec. Public School 🏫",
-        "Class": "XII",
-        "Percentage": "86%"
-      },
-      {
-        "Institution": "BVN Sr. Sec. Public School 🏫",
-        "Class": "X",
-        "Percentage": "81%"
+        "role": "Frontend Developer Intern",
+        "company": "Realezi",
+        "duration": "August 2024 – October 2024",
+        "responsibilities": [
+          "Converted Figma designs into fully responsive web pages using HTML, CSS, and JavaScript.",
+          "Collaborated with UI/UX designers and backend developers."
+        ]
       }
     ],
-    "Experience": {
-      "Position": "Frontend Developer Intern 💻",
-      "Company": "Realezi, Prop-Tech (Gujarat) 🏢",
-      "Duration": "August 2024 - October 2024",
-      "Description": "Modified Figma designs into responsive webpages. Utilized technologies such as HTML, CSS, JavaScript, and Figma. Collaborated with UI/UX designers and backend developers. 🤝"
-    },
-    "Side_projects": [
+    "open_source_contributions": [
       {
-        "Project": "SmartCompare 🛒",
-        "Link": "https://smartcompare.vercel.app",
-        "Description": "A grocery comparison app built using QuickCompare APIs. Displays products like milk and bread with price, weight, delivery time, and image. Hosted on Vercel and uses Neon PostgreSQL to track PWA installs. Tagline: 'FOR THE SMART ONES'."
-      },
-      {
-        "Project": "Blinkit Product Scraper App 🛍️",
-        "Description": "A web app that scrapes Blinkit product data using Puppeteer based on user-entered queries and location. Built with a frontend for user input and a Puppeteer-powered backend for real-time product search results."
-      },
-      {
-        "Project": "Portfolio Website 💼",
-        "Link": "https://custom-web-solutions.vercel.app",
-        "Description": "Custom Web Solutions is a web development service focused on creating modern, responsive websites for small businesses."
-      },
-      {
-        "Project": "System Inspector 🖥️",
-        "Link": "https://system-inspector.vercel.app/",
-        "Description": "Displays detailed information about a user’s browser, device, system, graphics, network, and features."
+        "project": "google-gemini/live-api-web-console",
+        "issue": "#37",
+        "url": "https://github.com/google-gemini/live-api-web-console/issues/37",
+        "description": "Reported and documented a critical input validation bug causing empty submissions and irrelevant API calls. The issue was acknowledged, labeled as a bug, and resolved via a linked pull request."
       }
     ],
-    "Open_Source_Contribution": {
-      "Bug_Fix": {
-        "Project": "Gemini Web Console 🐞",
-        "Issue": "Fixed bug where input handling was causing major issues in irrelevant API calls and lagging.",
-        "URL": "https://github.com/google-gemini/live-api-web-console/issues/37"
+    "education": [
+      {
+        "degree": "Bachelor of Commerce (Hons.)",
+        "institution": "Maharishi Dayanand University",
+        "duration": "June 2021 – May 2024"
       },
-      "Feedback_Preferences": "You prefer honest and constructive feedback and want to be corrected immediately if something is wrong rather than always receiving positive reinforcement. 📝"
-    },
-    "Certifications": [
-      "JavaScript Algorithms and Data Structures (Beta) - Free Code Camp (2024) 📜",
-      "Accenture - Product Design Job Simulation - Forage (2023) 🏅",
-      "Certificate in Computer Application - MS Office (2021) 🖥️",
-      "AI & ChatGPT for Productivity - Udemy (2023) 🤖",
-      "Introduction to Generative AI - Google (2024) 🌱"
-    ]
+      {
+        "level": "Higher Secondary (Class XII)",
+        "institution": "BVN Sr. Sec. Public School",
+        "percentage": "86%"
+      },
+      {
+        "level": "Senior Secondary (Class X)",
+        "institution": "BVN Sr. Sec. Public School",
+        "percentage": "81%"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Mastering Web Automation with Playwright and Python",
+        "issuer": "Udemy",
+        "certificate_url": "ude.my/UC-0c84e036-d68a-449c-bc46-631307748241"
+      },
+      {
+        "title": "Data Structures and Algorithms",
+        "issuer": "freeCodeCamp"
+      },
+      {
+        "title": "Introduction to Generative AI",
+        "issuer": "Google"
+      },
+      {
+        "title": "AI & ChatGPT for Productivity",
+        "issuer": "Udemy"
+      }
+    ],
+    "preferences": {
+      "feedback_style": "Prefers honest, direct, and constructive feedback with immediate correction when something is wrong."
+    }
   };
 
-  // Set the Content-Type header to application/json
-  res.setHeader('Content-Type', 'application/json');
-
-  // Send the formatted JSON response
-  res.send(JSON.stringify(data, null, 2));
+  res.setHeader("Content-Type", "application/json");
+  res.status(200).send(JSON.stringify(data, null, 2));
 }
